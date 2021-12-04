@@ -1,0 +1,23 @@
+<br> <div class="profile-gg">
+<h2 class="page-header">서비스 사용자 리스트</h2>
+<div class="alert" role="alert">
+<p>본인의 이름과 아이디, Email을 확인해보세요.</p>
+</div>
+
+<table class="table table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{ user.name }}</td>
+            <td>{{ user.username }}</td>
+            <td>{{ user.email }}</td>
+        </tr>
+    </tbody>
+</table>
+</div>

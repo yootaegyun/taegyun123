@@ -1,0 +1,52 @@
+.col {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    margin: 10px;
+    color: white;
+}
+
+.card-link :hover {
+    color: rgb(9, 151, 9);
+}
+
+
+
+
+
+
+.container-fluid
+{
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    30%,45.1%
+    {
+        color: white;
+        text-shadow: none;
+    }
+    80.1%
+    {
+        color: black;
+        text-shadow: 0 0 10px white,
+        0 0 20px black,
+        0 0 40px black,
+        0 0 80px black,
+        0 0 160px black,
+        0 0 400px black;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+
+.container-fluid{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+a {text-decoration: none; color: white;}
+

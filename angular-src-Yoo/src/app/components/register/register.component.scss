@@ -1,0 +1,22 @@
+.profile-gg{
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-group{
+    justify-content: center;
+    align-items: center;
+    background:darkgray;
+    height: 11vh;
+    width: 10cm;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px black;
+    border-color: black;
+}
